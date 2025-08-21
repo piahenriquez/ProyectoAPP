@@ -3,8 +3,8 @@ import { WbSunny, Cloud, Thunderstorm } from '@mui/icons-material';
 import { useState, useEffect, useRef, useCallback } from 'react';
 
 
-const GEO_API_KEY = process.env.VITE_GEO_API_KEY;
-const GEO_API_HOST = process.env.VITE_GEO_API_HOST;
+const GEO_API_KEY = import.meta.env.VITE_GEO_API_KEY;
+const GEO_API_HOST = import.meta.env.VITE_GEO_API_HOST;
 const WEATHER_API_URL = process.env.VITE_WEATHER_API_URL;
 
 const CitySearch = () => {
