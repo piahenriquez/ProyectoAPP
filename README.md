@@ -44,3 +44,5 @@ Utiliza la API **GeoDB Cities** para localizar ciudades y la API **Open-Meteo** 
 1. Regístrese en RapidAPI: https://rapidapi.com/
 2. Suscríbase a la API "GB Cities"
 3. Cree un archivo `.env` en la raíz del proyecto
+4. colocar la api de open-meteo como VITE_OPEN_METEO_URL (gratuita y de uso libre)
+5. Colocar api de GB cities como VITE_GEO_API_KEY
